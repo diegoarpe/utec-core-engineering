@@ -1,3 +1,3 @@
 #!/usr/bin/env python3
 for value in range(0, 99):
-    print("{0:d}".format(value), end=", " if value < 98 else "")
+    print("{:02d}".format(value), end=", " if value < 98 else "")
