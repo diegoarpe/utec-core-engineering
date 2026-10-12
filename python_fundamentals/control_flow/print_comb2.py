@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
-for value in range(0, 100):
-    print("{:02d}".format(value), end=", " if value < 99 else "\n")
+for left in range(10):
+    for right in range(left + 1, 10):
+      last= (left == 10 - 2 and right == 10 - 1)
+      print(f"{left}{right}", end="\n" if last else ", ")
