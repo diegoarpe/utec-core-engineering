@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Module that defines the Rectangle class, derived from BaseGeometry."""
-from base_geometry import BaseGeometry
+"""Module that defines the Rectangle class, a subclass of BaseGeometry."""
+BaseGeometry = __import__('base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
